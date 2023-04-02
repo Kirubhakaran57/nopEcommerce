@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <test name="MyTests">
+        <classes>
+            <class name="kirubhakaran.nopcommerce.tests.VerifyRegisterTest"/>
+            <class name="kirubhakaran.nopcommerce.tests.VerifyLoginTest"/>
+            <class name="kirubhakaran.nopcommerce.tests.VerifyHomePageTest"/>
+            <class name="kirubhakaran.nopcommerce.tests.VerifyCheckOutTest"/>
+        </classes>
+    </test>
+</suite>
